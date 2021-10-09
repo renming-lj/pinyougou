@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+li,a,body {
+    list-style-type: none;
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+}
+a:hover {
+    color: #c81623;
+}
+button,input {
+    /* 去除默认灰色边框 */
+    border: 0;
+    /* 去掉点击后的蓝色边框 */
+    outline: none;
+}
